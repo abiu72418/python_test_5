@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>To-Do List</h1>
+    <h1>TEST_wizard</h1>
     <input v-model="newTask" @keyup.enter="addTask" placeholder="Add a new task" />
     <ul>
       <li v-for="todo in todos" :key="todo.id">
